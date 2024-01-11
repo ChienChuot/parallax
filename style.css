@@ -1,0 +1,392 @@
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+/* Clear floats after the columns */
+
+
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+  }
+
+
+
+/* For desktop: */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
+}
+
+.float-l {
+    float: left;
+}
+
+.float-r {
+    float: right;
+}
+
+.text-c {
+  text-align: center;
+}
+
+
+
+#main-body{
+   
+}
+
+
+#head-body {
+    overflow: hidden;
+    background-color: #fff;
+   
+
+}
+
+.head-body-left {
+ 
+
+  float: left;
+  color: gray;
+  text-align: center;
+  text-decoration: blink;
+  padding: 10px 14px;
+  text-transform: uppercase;
+
+}
+
+
+
+.head-body-left a:hover {
+  color: #000;
+  background-color: white;
+}
+
+.head-body-right
+ a:hover {
+  cursor : alias;
+}
+
+.head-body-right {
+  padding: 10px 12px;
+  text-align: center;
+
+
+}
+
+
+
+#slider-body {
+
+}
+
+.div-slider-text{
+  position: relative;
+  padding-top: 50%;
+  background: url(/img.style/photo-1483232539664-d89822fb5d3e.avif) top center / cover no-repeat;
+}
+
+ 
+
+
+ 
+
+
+
+.slider-text {
+ color: white;
+ background-color: #000;
+ text-align: center;
+ width: 50%;
+ display: flex;
+  height: 48px;
+  margin: auto;
+  padding-top: 16px;
+  justify-content: center;
+
+}
+
+
+#content-body {
+  height: 800px;
+  background-color: antiquewhite;
+
+}
+
+
+.content-body{
+  
+}
+
+.div-content{
+ 
+
+}
+
+.h1-content{
+  text-align: center;
+  padding-top: 30px;
+
+
+}
+
+.p-dsc {
+  text-align: center;
+  padding-top: 16px;
+  opacity: 0.5;
+
+}
+
+
+.p-text {
+  padding-top: 16px;
+  padding-left: 120px;
+  padding-right: 120px;
+  padding-bottom: 16px;
+
+}
+
+.about-l{
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 200px;
+  opacity: 0.5;
+
+}
+
+.p-text-skill {
+padding-top: 16px;
+padding-bottom: 16px;
+
+}
+
+.skill{
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 36px;
+  padding-right: 60px;
+
+}
+
+
+.skill-85{
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 36px;
+  padding-right:140px;
+
+}
+
+.skill-75{
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 36px;
+  padding-right: 220px;
+
+}
+.skill-up-down{
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 36px;
+  background-color: gainsboro;
+
+}
+
+.div-about-bottom {
+  background-color: aliceblue;
+  padding-left: 36px;
+  padding-right: 36px;
+  text-align: center;
+  height: 130px;
+  margin-top: 30px;
+
+
+}
+
+.p-about-bottom{
+  font-size: 40px;
+  margin-top: 25px;
+
+}
+
+
+.portfoli {
+  height: 400px;
+  background-color: gray;
+  color: white;
+  text-align: center;
+  padding-top: 200px;
+  letter-spacing: 15px;
+
+
+}
+
+.h2-mywork {
+  text-align: center;
+  margin-top: 100px;
+
+}
+.p-mywork {
+  margin-top: 20px;
+  text-align: center;
+  font-style: italic;
+
+
+}
+
+.p2-mywork {
+  margin-top: 7px;
+  text-align: center;
+  font-style: italic;
+
+
+}
+
+.div-img-mywork{
+
+  margin-top: 35px;
+
+}
+
+
+.btn-myWork{
+  text-transform: uppercase;
+  text-align: center;
+  display: flex;
+  margin-left: auto; 
+  margin-right: auto;
+  padding: 10px;
+  margin-top: 12px;
+}
+
+.btn-myWork:hover {
+  background-color: black;
+  color: #fff;
+}
+
+
+/* <!-- end myWork --> */
+
+/* <!-- before contact --> */
+
+
+.contact {
+  height: 400px;
+  background-color: gray;
+  color: white;
+  text-align: center;
+  padding-top: 200px;
+  letter-spacing: 15px;
+  margin-top: 35px;
+
+
+}
+
+
+
+.h2-whereIwork {
+  text-align: center;
+  margin-top: 100px;
+
+}
+.p-whereIWork {
+  margin-top: 20px;
+  text-align: center;
+  font-style: italic;
+
+
+}
+
+.head-work-from {
+
+
+  margin-top: 32px;
+  margin-bottom: 60px;
+
+}
+
+
+.work-icon {
+
+  padding-right: 12px;
+  
+
+}
+
+.work-from-dcs {
+  margin-top: 12px;
+
+}
+
+.head-input-from {
+  padding-top: 24px;
+}
+
+.body-input-from{
+  width: 500px;
+  height: 36px;
+}
+
+.fromOne{
+  margin-top: 12px;
+  margin-bottom: 12px;
+
+}
+
+.body-btn-work{
+  text-transform: uppercase;
+  margin-top: 19px;
+  width: 180px;
+  height: 36px;
+  
+}
+
+.btn-icon{
+  padding-right: 16px;
+}
+
+
+
+
+
+
+
+
+
+#foot-body {
+  margin-bottom: 50px;
+
+}
+
+.body-foot{
+  text-align: center;
+}
